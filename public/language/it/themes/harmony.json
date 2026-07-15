@@ -1,0 +1,23 @@
+{
+	"theme-name": "Tema Armonia",
+	"skins": "Skin",
+	"collapse": "Collassa",
+	"expand": "Espandi",
+	"sidebar-toggle": "Attiva/disattiva barra laterale",
+	"login-register-to-search": "Accedi o registrati per effettuare la ricerca.",
+	"settings.title": "Impostazioni tema",
+	"settings.enableQuickReply": "Abilita risposta rapida",
+	"settings.enableBreadcrumbs": "Mostra breadcrumb nelle pagine Categoria e Discussione",
+	"settings.enableBreadcrumbs.why": "I breadcrumb sono visibili nella maggior parte delle pagine per facilitare la navigazione. Il design di base delle pagine delle categorie e delle discussioni prevede mezzi alternativi per ricollegarsi alle pagine principali, ma il breadcrumb può essere disattivato per ridurre la confusione.",
+	"settings.centerHeaderElements": "Centra elementi dell'intestazione",
+	"settings.mobileTopicTeasers": "Mostra le anteprime delle discussioni su mobile",
+	"settings.stickyToolbar": "Barra degli strumenti adesiva",
+	"settings.stickyToolbar.help": "La barra degli strumenti nelle pagine delle discussioni e delle categorie si attacca alla parte superiore della pagina.",
+	"settings.topicSidebarTools": "Topic sidebar tools",
+	"settings.topicSidebarTools.help": "This option will move the topic tools to the sidebar on desktop",
+	"settings.autohideBottombar": "Auto hide mobile navigation bar",
+	"settings.autohideBottombar.help": "The mobile bar will be hidden when the page is scrolled down",
+	"settings.topMobilebar": "Move the mobile navigation bar to the top",
+	"settings.openSidebars": "Apri le barre laterali",
+	"settings.chatModals": "Abilita i modali della chat"
+}
