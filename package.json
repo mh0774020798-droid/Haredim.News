@@ -186,8 +186,8 @@
     },
     "engines": {
   "node": "22.x"
-}
-    "maintainers": [
+},
+"maintainers": [
         {
             "name": "Julian Lam",
             "email": "julian@nodebb.org",
