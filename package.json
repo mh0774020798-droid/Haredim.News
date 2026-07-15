@@ -185,8 +185,8 @@
         "url": "https://github.com/NodeBB/NodeBB/issues"
     },
     "engines": {
-        "node": ">=18"
-    },
+  "node": "22.x"
+}
     "maintainers": [
         {
             "name": "Julian Lam",
