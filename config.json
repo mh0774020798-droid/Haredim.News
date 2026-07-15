@@ -5,5 +5,7 @@
   "mongo": {
     "uri": "mongodb+srv://mh0774020798_db_user:1JTMKjZBoYeKoqXI@cluster0.9pzimjb.mongodb.net/?appName=Cluster0"
   },
-  "port": 10000
+  "port": 10000,
+  "daemon": false,
+  "silent": false
 }
