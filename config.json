@@ -1,5 +1,5 @@
 {
-  "url": "https://haredim-news-fs2o.onrender.com"
+  "url": "https://haredim-news-fs2o.onrender.com",
   "secret": "704d17f9-35b8-4788-8f3c-2b8d21aad322",
   "database": "mongo",
   "mongo": {
