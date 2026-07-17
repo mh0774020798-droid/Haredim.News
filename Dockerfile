@@ -29,6 +29,9 @@ RUN groupadd --gid ${GID} ${USER} \
     && useradd --uid ${UID} --gid ${GID} --home-dir /usr/src/app/ --shell /bin/bash ${USER} \
     && chown -R ${USER}:${USER} /usr/src/app/
 
+RUN mkdir -p /usr/src/app/build/public \
+    && chown -R ${USER}:${USER} /usr/src/app/build
+
 USER ${USER}
 
 RUN npm install --omit=dev \
