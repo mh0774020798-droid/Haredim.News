@@ -66,8 +66,8 @@ COPY --from=git --chown=${USER}:${USER} /usr/src/app/ /usr/src/app/
 RUN chmod +x /usr/local/bin/entrypoint.sh \
     && chmod +x /usr/local/bin/tini
 
-# TODO: Have docker-compose use environment variables to create files like setup.json and config.json.
-# COPY --from=hairyhenderson/gomplate:stable /gomplate /usr/local/bin/gomplate
+# העתקת קובץ ההגדרות למיקום המדויק לפני הגדרת ה-Volume והרצת השרת
+COPY --chown=nodebb:nodebb config.json /opt/config/config.json
 
 USER ${USER}
 
@@ -76,4 +76,3 @@ EXPOSE 4567
 VOLUME ["/usr/src/app/node_modules", "/usr/src/app/build", "/usr/src/app/public/uploads", "/opt/config/"]
 
 ENTRYPOINT ["tini", "--", "entrypoint.sh"]
-COPY --chown=nodebb:nodebb config.json /opt/config/config.json
