@@ -73,6 +73,9 @@ USER ${USER}
 
 EXPOSE 4567
 
+# --- זאת השורה שהוספנו ---
+COPY --chown=nodebb:nodebb config.json /opt/config/config.json
+
 VOLUME ["/usr/src/app/node_modules", "/usr/src/app/build", "/usr/src/app/public/uploads", "/opt/config/"]
 
 ENTRYPOINT ["tini", "--", "entrypoint.sh"]
